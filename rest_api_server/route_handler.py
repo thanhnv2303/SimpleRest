@@ -19,7 +19,7 @@ class RouteHandler(object):
         self._database = database
 
     async def circulating_supply(self, request):
-        return json_response(5*10**7)
+        return json_response(51206064)
 
     def add_route(self, app):
         app.router.add_get(RestApiServer.API_VERSION + RouteApiConstant.circulating_supply, self.circulating_supply)
