@@ -6,7 +6,7 @@ import os
 
 class RestApiServer:
     HOST = os.environ.get("REST_API_HOST") or '0.0.0.0'
-    PORT = os.environ.get("REST_API_PORT") or 8000
+    PORT = os.environ.get("REST_API_PORT") or 2808
     API_VERSION = os.environ.get("REST_API_VERSION") or "/app/v0.1"
 
 
